@@ -1,0 +1,46 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Genre Test App</title>
+
+  <!-- CSS (load bootstrap from a CDN) -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style>
+      body {
+      background-color: #f0971d;
+      }
+      footer { 
+        position:fixed;
+        padding-bottom: 2em;
+        bottom:0;
+        left: 0;
+        width:100%;
+        }
+        .centered {
+          position: fixed; /* or absolute */
+          top: 45%;
+          left: 50%;
+          transform: translate(-45%, -50%);
+        }
+  </style>
+</head>
+<body class="container">
+
+    <header>
+    </header>
+
+    <main>
+      <div class='centered'>
+        <h1><%= genre %></h1>
+      </div>
+    </main>
+
+    <footer>
+        <p class="text-center text-muted">© Copyright 2016 Dag Holmberg</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!--
+Spotify Music Personality Test App
+Author: Dag Holmberg
+-->                         
+
+<html >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+    <!--<meta name='viewport' content='width=device-width, initial-scale=1.0'>-->
+    <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Music Personality Test">
+    <meta name="author" content="Dag Holmberg">
+    <title>Dag Holmberg</title>
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic,700italic">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css'>
+    <link rel='stylesheet' href='stylesheets/home/style.css'>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src='javascripts/home/spotify.js'></script>
+    <script src='javascripts/home/app.js'></script>
+    <script src='javascripts/home/index.js'></script>
+    
+    <!-- opens selected links in a new tab -->
+    <base target="_blank">
+  </head>
+  
+  <!-- body -->
+  <body>
+
+    <!-- header -->
+    <header>
+      <div class='head'><h2>Music Personality Test</h2></div>
+    </header>
+
+    <div class='container-fluid'>
+
+      <!-- content -->
+      <div class='content'>
+
+      <!-- information -->
+        <div class='row info'>
+          <div class='col-xs-12'>
+            <p class='info-text'>
+              This test will build a personality profile chart based on your data collected from Spotify.
+              The test itself is built on the research performed at Heriot-Watt University.
+              36,518 people from around the world took part in the study, by far the most extensive study of musical
+              preference and personality ever undertaken. The research found that strong personality attributes are
+              linked to our choices in music and our liking for a certain musical style.
+            </p>
+          </div>
+        </div>
+
+        <!-- Login button -->
+        <div class='row login'>
+          <div class='col-xs-12'>
+            <button id='spotify-login-button' class='btn btn-sm btn-green'>Log In with Spotify to Run Test</button>
+          </div>
+        </div>
+
+        <footer class='row'>
+
+          <div class='col-xs-12' style='text-align:center; position:relative; top: 50px;'>
+          <p><a style='color:#fff; font-size:80%;' href='https://holmberd.github.io'><u>About the author</u></a></p>
+            <p style='color:#fff; font-size: 90%'>Powered by: <img src='images/spotify-logo.png' width='110' height='33'></p>
+          </div>
+        </footer> 
+
+      </div> <!-- End of content -->
+    </div>
+
+
+  </body>
+</html>

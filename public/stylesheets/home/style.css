@@ -1,0 +1,51 @@
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #2B313B;
+  font-size: 16px; /*font-size: 1.6em; */
+  line-height: 2.0;
+  color: #333;
+}
+
+header h2 {
+  color:#FFCB45;
+}
+
+.head {
+  /*border-bottom: 1px solid #d9dadc;*/
+  /*padding: 10px 0 10px;*/
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.info {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #6fb07f;
+}
+
+.login {
+  text-align: center;
+}
+
+.btn-green {
+  color:#fff;
+  background-color:#1DB954;
+}
+
+.btn-sm {
+    padding: 7px 35px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 500px;
+  }
+
