@@ -9,7 +9,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 
-require('dotenv').config();
+//require('dotenv').config();
 var routes = require('./routes/index');
 
 var app = express();
