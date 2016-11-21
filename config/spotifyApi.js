@@ -9,7 +9,7 @@ var SpotifyWebApi = require('spotify-web-api-node');
 
 var config = {
   scopes: ['user-read-private', 'user-read-email', 'user-top-read'],
-  redirectUri: 'http://localhost:3000/',
+  redirectUri: 'https://lit-retreat-57196.herokuapp.com/profile',
   clientId: process.env.SPOTIFY_ID,
   clientSecret: process.env.SPOTIFY_SECRET,
   state: '12345'

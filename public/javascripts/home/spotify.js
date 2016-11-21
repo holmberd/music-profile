@@ -12,7 +12,7 @@ var spotifyConfig = (function () {
   // Set spotifyConfig credentials.
   var spotifyConfig = {
     client_id: 'fd671538a8e848e7bbeb3a583894d466',
-    redirect_uri: 'http://localhost:3000/profile',
+    redirect_uri: 'https://lit-retreat-57196.herokuapp.com/profile',
     scope: 'user-read-email user-top-read'
   };
 
