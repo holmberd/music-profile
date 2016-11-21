@@ -53,11 +53,10 @@ var controller = (function (spotifyWebApi, http, d3, RadarChart) {
         spotifyWebApi.setAccessToken(accessToken); // set accessToken to client storage.
         model.getProfileData()
           .then(function success (data) {
-            console.log('got data', data);
             view.hideLoader();
             controller.buildRadarChart(data);
           }, function failure (err) {
-            console.log('there was an error fetching data from API', err);
+            console.error('there was an error fetching data from API', err);
           });
       }
     },
