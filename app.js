@@ -12,6 +12,8 @@ var bodyParser = require('body-parser');
 //require('dotenv').config();
 var routes = require('./routes/index');
 
+const PORT = process.env.PORT || '3000';
+
 var app = express();
 
 if (app.get('env') !== 'development') {
@@ -55,5 +57,8 @@ app.use(function(err, req, res, next) {
   res.json({ 'error': { 'status': err.status, 'message': err.message } });
 });
 
+app.listen(PORT);
+console.log("Running server on PORT:", PORT);
 
-module.exports = app;
+
+//module.exports = app;
