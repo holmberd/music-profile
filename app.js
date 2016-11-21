@@ -14,6 +14,10 @@ var routes = require('./routes/index');
 
 var app = express();
 
+if (app.get('env') !== 'development') {
+  app.enable('trust proxy');
+}
+
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
