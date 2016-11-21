@@ -7,7 +7,6 @@ This test will build a personality profile chart based on your data collected fr
 Test app: https://lit-retreat-57196.herokuapp.com/
 
 ![alt tag](https://github.com/holmberd/music-profile-express-app/blob/master/image1.png)
-![alt tag](https://github.com/holmberd/music-profile-express-app/blob/master/image2.png)
 
 
 ##Author
