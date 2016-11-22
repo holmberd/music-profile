@@ -2,6 +2,8 @@
  * Global Module
  */
 
+ // TODO: Rewrite like normal.
+
 /*jshint node: true */
 /*jshint browser: true */
 
@@ -24,6 +26,9 @@ var controller = (function (spotifyConfig) {
     init: function () {
       view.init();
       // Add eventListeners to the handlers.
+      // 'useCapture' became optional only in more recent versions of the major browsers; 
+      // for example, it was not optional prior to Firefox 6. 
+      // You should provide that parameter for broadest compatibility.
       return view.spotifyLoginButton.addEventListener('click', controller.spotifyLogin, false);
     },
     // Event handler function for spotify login button.
